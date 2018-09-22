@@ -1,25 +1,30 @@
 
 .body  {
-background-image: url("images/dynamic.png");
+background-image: url("images/dynamic.png") , url("images/me.jpg");
 text-align: center;
 
 }
 
 .background {
-opacity: 0.4;
-
+opacity: 0.4 ;
 position: absolute;
-top: 470px;
+top: 1080px ;
 
+ }
+ .background2 {
+   position: absolute;
+   top: 0px ;
+   left: 0;
  }
  .welcome{
    position:  relative;
    font-family: "Gabriola", Times, serif;
    text-align: left;
    font-style: normal;
-   font-size: 40px;
-   top: 35px;
-   margin-left: 55px;
+   font-size: 37px;
+   top: 20px;
+   margin-left: 75px;
+   color: #0000BD;
  }
  .name {
    position:  relative;
@@ -27,11 +32,12 @@ top: 470px;
    text-align: left;
    font-style: normal;
    font-size: 30px;
-   top: 45px;
-   margin-left: 55px;
+   top: 0px;
+   margin-left: 77px;
+   color: #0000BD;
  }
 .Container{
-  margin-top: 4%;
+  margin-top: 0.5%;
 }
 .headline {
   position:  relative;
@@ -40,10 +46,34 @@ top: 470px;
   font-style: normal;
   font-style: italic;
   font-size: 70px;
-  top: 50px;
+  top: -25px;
+  color:  #00D9E3;
+  left: -15px;
 }
-.whole{
-  margin-top: 30px;
+.about {
+  position:  relative;
+  font-family: "Gabriola", Times, serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 35px;
+  top: -40px;
+  margin-left: 86px;
+  color: #0000BD;
+}
+.Paragraph {
+  position:  relative;
+  font-family: "Gabriola", Times, serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 25px;
+  top: -60px;
+  margin-left: 85px;
+  width: 86%;
+  text-align: justify;
+  color: #05FFE8;
+}
+.whole {
+  margin-top: 2.3%;
   margin-left: 50px;
   display: flex;
 }
@@ -59,10 +89,10 @@ top: 470px;
 
 .list {
   position:  relative;
-  font-family: "mv boli", times , serif;
+  font-family: "Gabriola", times , serif;
   text-align: left;
   font-style: normal;
-  font-size: 20px;
+  font-size: 28px;
   top: 50px;
   margin-left: 50px;
 }
@@ -79,16 +109,16 @@ top: 470px;
   font-style: normal;
   font-size: 40px;
   top: 50px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .list2 {
   position:  relative;
-  font-family: "mv boli", times , serif;
+  font-family: "Gabriola", times , serif;
   text-align: left;
   font-style: normal;
-  font-size: 20px;
+  font-size: 28px;
   top: 50px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 .link2 {
   color:  #035740;
@@ -104,16 +134,16 @@ top: 470px;
   font-style: normal;
   font-size: 40px;
   top: 50px;
-  margin-left: 25px;
+  margin-left: 30px;
 }
 .list3 {
   position:  relative;
-  font-family: "mv boli", times , serif;
+  font-family: "Gabriola", times , serif;
   text-align: left;
   font-style: normal;
-  font-size: 20px;
+  font-size: 28px;
   top: 50px;
-  margin-left: 25px;
+  margin-left: 30px;
 }
 .link3 {
   color: #E53B69 ;
