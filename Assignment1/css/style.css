@@ -1,0 +1,154 @@
+/*body{background-color: #fffde0;}
+.header{background-color: #ffffff;}*/
+
+.background2{width:100%;}
+
+ .welcome{
+   position:  relative;
+   font-family: "Gabriola",sans-serif;
+   text-align: left;
+   font-style: normal;
+   font-weight: lighter;
+   font-size: 48px;
+   top: -166px;
+   margin-left: 86px;
+   color: white;
+ }
+ .name {
+   position:  relative;
+   font-family: "Gabriola", Times, serif;
+   text-align: left;
+   font-style: normal;
+   font-size: 30px;
+   margin-top: -51%;
+   margin-right: 3%;
+   color: white;
+   line-height: 40px;
+   width: 15%;
+   float: right;
+ }
+
+.intro {margin-top: -5em;
+background-color:white;}
+
+.about {
+  font-family: "Source sans pro", Times, serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 25px;
+  margin-left: 86px;
+  color: #0C8786;
+  line-height: 50px;
+}
+p {
+  opacity: 0.9;
+  font-family: "Gabriola", Times, serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 25px;
+  margin-left: 85px;
+  width: 88%;
+  text-align: justify;
+  color: black;
+}
+
+.whole {
+  margin-top: 5%;
+  display: flex;
+  background-color: #fffde0;
+}
+.Assignment {
+  position:  relative;
+  font-family: "Megrim", times , serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 33px;
+  top: 50px;
+  margin-left: 86px;
+  color: #5614E5;
+}
+
+.list {
+  position:  relative;
+  font-family: "sourse sans pro", sans-serif;
+  text-align: left;
+  font-style: normal;
+  top: 50px;
+  margin-left: 75px;
+  line-height: 35px;
+  font-size: 18px;
+}
+
+.link {
+  color: black;
+  top: 10px;
+  text-decoration: none;
+}
+.Exercise {
+  position:  relative;
+  font-family: "Megrim", times , serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 33px;
+  top: 50px;
+  margin-left: 50px;
+  color: #5614E5;
+}
+.list2 {
+  position:  relative;
+  font-family: "sourse sans pro", sans-serif;
+  text-align: left;
+  font-style: normal;
+  line-height: 35px;
+  font-size: 18px;
+  top: 50px;
+  margin-left: 40px;
+}
+.link2 {
+  color:  black;
+  top: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  color: black;
+}
+
+.Proposal {
+  position:  relative;
+  font-family: "Megrim", times , serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 33px;
+  top: 50px;
+  margin-left: 30px;
+  color: #5614E5;
+
+}
+.list3 {
+  position:  relative;
+  font-family: "sourse sans pro", sans-serif;
+  text-align: left;
+  font-style: normal;
+  line-height: 35px;
+  font-size: 18px;
+  top: 50px;
+  margin-left: 30px;
+}
+.link3 {
+  color: black;
+  top: 10px;
+  text-decoration: none;
+}
+
+.Container-1 {
+  float: left;
+  width: 35%;
+  padding: 5px;
+
+}
+.Container-2 {
+  float: right;
+  width: 25%;
+  padding: 5px;
+  margin-right: 30px;
+
+}
