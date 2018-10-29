@@ -1,0 +1,55 @@
+{
+  "Label": "Weekly Weather Variations",
+  "Weather":
+  [
+    {"Day": "Day : Monday",
+    "Humidity": "Humidity : 55%",
+    "Temperature": "Temperature at morning : -1° - 5°",
+    "Wind": "Wind speed (In 24hrs) : 12 - 7 km/h",
+    "Time": "Time taken to get to college : 15 minutes"
+  },
+
+  {"Day": "Day : Tuesday",
+  "Humidity": "Humidity : 70%",
+  "Temperature": "Temperature at morning : 1° - 6°",
+  "Wind": "Wind speed (In 24hrs): 13 - 21 km/h",
+  "Time": "Time taken to get to college : 17 minutes"
+  },
+
+  {"Day": "Day : Wednesday",
+  "Humidity": "Humidity : 77%",
+  "Temperature": "Temperature at morning : 2° - 7°",
+  "Wind": "Wind speed (In 24hrs): 22 - 16 km/h",
+  "Time": "Time taken to get to college : 20 minutes"
+  },
+
+  {"Day": "Day : Thursday",
+  "Humidity": "Humidity : 53%",
+  "Temperature": "Temperature at morning : 2° - 1°",
+  "Wind": "Wind speed (In 24hrs): 18 - 15 km/h",
+  "Time": "Time taken to get to college : 20 minutes"
+
+  },
+
+  {"Day": "Day : Friday",
+  "Humidity": "Humidity : 50%",
+  "Temperature": "Temperature at morning : -3° - 4°",
+  "Wind": "Wind speed (In 24hrs): 11 - 23 km/h",
+  "Time": "Time taken to get to college : 20 minutes"
+  },
+
+  {"Day": "Day : Saturday",
+  "Humidity": "Humidity : 56%",
+  "Temperature": "Temperature at morning : 11° - 10°",
+  "Wind": "Wind speed (In 24hrs): 31 - 19 km/h",
+  "Time": "Time taken to get to college : 13 minutes"
+  },
+
+  {"Day": "Day : Sunday",
+  "Humidity": "Humidity : 57%",
+  "Temperature": "Temperature at morning : 2° - 4°",
+  "Wind": "Wind speed (In 24hrs): 16 km/h",
+  "Time": "Time taken to get to college : 18 minutes"
+  }
+   ]
+  }
