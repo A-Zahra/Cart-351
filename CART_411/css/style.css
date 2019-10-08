@@ -142,7 +142,7 @@ li.gallery {
   border-radius: 20px;
 }
 .row2 {
-    background-color: #B39800;
+    background-color: #FFAE2E;
     padding-top: 1vw;
     padding-bottom: 10vw;
     padding-left: 10vw;
@@ -205,7 +205,7 @@ li.gallery {
 }
 .text:hover {
   background-color: white;
-  color: #B39800;
+  color: #FFAE2E;
 }
 @media screen and (max-width: 1200px) {
   .row1 {
