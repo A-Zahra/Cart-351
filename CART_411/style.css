@@ -79,16 +79,26 @@ li.gallery {
 }
 .row1 {
     background-color: #00A1B3;
-    padding-top: 5px;
-    padding-bottom: 130px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-top: 1vw;
+    padding-bottom: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 .aboutRow {
   width: 100%;
-  display: flex;
   margin-top: 120px;
+    display: flex;
 }
+/* Clearfix (clear floats) */
+.aboutRow::after {
+  display: flex;
+}
+/* .column {
+  z-index: 3;
+  width: 50%;
+  flex: 50%;
+  float: left;
+} */
 .aboutColumn1 {
   width: 60%;
   padding-right: 80px;
@@ -125,7 +135,7 @@ li.gallery {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 #aboutImg {
-  width: 29vw;
+  width: 93%;
   padding: 15px;
   float: left;
   flex: left;
@@ -133,10 +143,10 @@ li.gallery {
 }
 .row2 {
     background-color: #B39800;
-    padding-top: 5px;
-    padding-bottom: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-top: 1vw;
+    padding-bottom: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 .galleryRow {
   width: 100%;
@@ -145,7 +155,7 @@ li.gallery {
 }
 .galleryColumn {
   margin-top: -30px;
-  width: 40%;
+  width: 30%;
   float: left;
   flex: left;
   padding: 5px;
@@ -171,7 +181,7 @@ li.gallery {
 
 }
 .galleryImg {
-  width: 22vw;
+  width: 92%;
   padding: 15px;
   float: left;
   flex: left;
@@ -197,6 +207,53 @@ li.gallery {
   background-color: white;
   color: #B39800;
 }
-@@media screen and (max-width: 1000px) {
-  
+@media screen and (max-width: 1200px) {
+  .row1 {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+  }
+  .heading {
+    margin-top: 10px;
+  }
+  .aboutRow{
+    margin-top: 80px;
+  }
+  .aboutColumn1 {
+    width: 100%;
+    float: left;
+  }
+  .aboutColumn2{
+    width: 32.5vw;
+    float: right;
+
+  }
+  .readMore {
+    width: 9vw;
+    margin-top: 3vw;
+  }
+  #aboutImg {
+    width: 30vw;
+  }
+  .aboutRow {
+    display: inline-table;
+  }
+  .row2 {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+  }
+  .galleryRow {
+    display: inline-flex;
+    margin-top: 5vw;
+  }
+  .galleryColumn {
+    width: 30%;
+
+  }
+  .galleryImg {
+    width: 88%;
+  }
 }
